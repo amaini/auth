@@ -27,9 +27,9 @@ onLoginFail() {
 onLoginSuccess() {
   this.setState({
     email: '',
-    passoword:'',
+    passoword: '',
     loading: false,
-    error:''
+    error: ''
   });
 }
 
